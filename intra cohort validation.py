@@ -41,8 +41,8 @@ os.environ["SCIPY_ARRAY_API"] = "1"
 # ==========================================
 # CONFIGURATION
 # ==========================================
-EXCEL_PATH = 'C:/Users/farid/oral cancer paper/qV2 HNSCC Tissue Cohorts (all).xlsx'
-BASE_SAVE_PATH = 'C:/Users/farid/oral cancer paper/Inter_Cohort_Results_Stats'
+EXCEL_PATH = 'qV2 HNSCC Tissue Cohorts (all).xlsx'
+BASE_SAVE_PATH = 'Inter_Cohort_Results_Stats'
 
 # Define Classifiers
 CLASSIFIERS = {
