@@ -481,7 +481,7 @@ df_main = pd.DataFrame(all_results)
 df_comp = generate_comparisons(df_main)
 df_main_clean = df_main.drop(columns=['raw_aucs', 'qmids_raw_aucs'])
 
-save_file = os.path.join(BASE_SAVE_PATH, 'C:/Users/farid/oral cancer paper/Inter_Cohort_Final_Stats.xlsx')
+save_file = os.path.join(BASE_SAVE_PATH, 'Inter_Cohort_Final_Stats.xlsx')
 with pd.ExcelWriter(save_file) as writer:
     df_main_clean.to_excel(writer, sheet_name='Metrics', index=False)
     df_comp.to_excel(writer, sheet_name='Comparisons', index=False)
