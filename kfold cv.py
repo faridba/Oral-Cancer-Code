@@ -520,8 +520,8 @@ def load_cohort_data(file_path, sheet_name=None, header=0,
 # MAIN EXECUTION
 ################################################################################
 
-EXCEL_PATH = 'C:/Users/farid/oral cancer paper/qV2 HNSCC Tissue Cohorts (all).xlsx'
-BASE_SAVE_PATH = 'C:/Users/farid/oral cancer paper'
+EXCEL_PATH = 'qV2 HNSCC Tissue Cohorts (all).xlsx'
+BASE_SAVE_PATH = 'oral cancer paper'
 
 cohorts = [
     {'name': 'UK', 'sheet': None, 'header': 0, 'limit': None, 'col_end': -2, 'qmics_col': 'qV2', 'test_size': 0.25},
